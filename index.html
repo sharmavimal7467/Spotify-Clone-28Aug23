@@ -7,10 +7,271 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+      </style>
 </head>
 <body>
- 
-
+<div class="main d-flex">
+    <div class="left-main">
+        <img src="./Assets/spotify-logo.svg" alt="logo">
+        <div class="left-first">
+            <div class="d-flex align-items-center gap-2 ms-2 mt-2 bg-dark me-2">
+                <img src="./Assets/home-icon.svg" alt="home-icon">
+                <div class="text-light home-text">Home</div>
+             </div>
+             <div class="d-flex align-items-center gap-2 ms-2 mt-2">
+                <img src="./Assets/search-spo-1.svg" alt="home-icon">
+                <div class="text-light home-text">Search</div>
+             </div>
+             <div class="d-flex align-items-center gap-2 ms-2 mt-2">
+                <img src="./Assets/lib.svg" alt="home-icon">
+                <div class="text-light home-text">Your Library</div>
+             </div>
+        </div>
+        <div class="left-second mt-5  d-flex flex-column justify-content-left align-items-left ms-2">
+            <div class="d-flex align-items-center gap-2 ms-1">
+                <div class="left-sec-fir d-flex align-items-center justify-content-center"><img src="./Assets/add.svg" alt="add"></div>
+                <div class="text-light cre-list">Create Playlist</div>
+            </div>
+            <div class=" left-left d-flex align-items-center gap-2 mt-3">
+                <div class="left-sec-fir-2 d-flex align-items-center justify-content-center"><img src="./Assets/heart.svg" alt="add"></div>
+                <div class="text-light cre-list">Liked Songs</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mt-3">
+                <div class="left-sec-fir-1 d-flex align-items-center justify-content-center"><img src="./Assets/epi.svg" alt="add"></div>
+                <div class="text-light cre-list">Create Playlist</div>
+            </div>
+        </div>
+        <div class="left-third text-light mt-5 ms-2">
+            <div class="song-type">FAV</div>
+            <div class="song-type">Daily Mix 1</div>
+            <div class="song-type">Discover Weekly</div>
+            <div class="song-type">Malayalam</div>
+            <div class="song-type">Dance / Electronix Mix</div>
+            <div class="song-type">EDM / Popular</div>
+        </div>
+        <div class="left-forth d-flex  align-items-center gap-3 ms-2 mt-5 mb-2">
+            <img src="./Assets/install.svg" alt="install">
+            <div class="inst-app text-light mt-1">Install App</div>
+        </div>
+    </div>
+    <div class="right-main">
+        <div class="d-flex align-items-center justify-content-between right-one">
+          <div>
+            <img src="./Assets/left-icon.svg" alt="">
+            <img src="./Assets/right-icon.svg" alt="">
+          </div>
+         <div class="d-flex align-items-center justify-content-between rect-5 me-2 bg-dark border-0 rounded-pill px-1 py-2">
+            <img src="./Assets/angel.svg" alt="angel">
+            <div class="text-light">Angel</div>
+            <img src="./Assets/down-icon.svg" alt="down-icon">
+         </div>
+        </div>
+        <div class="right-two mt-4 ms-4">
+           <h2 class="text-light">Good morning</h2>
+           <div class="d-flex align-items-center gap-2 flex-wrap">
+            <div class="card-1">
+                <div class="card-2 d-flex align-items-center">
+                    <img src="./Assets/her-1.svg" alt="her-1">
+                    <div class="card-text text-light">Liked Songs</div>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="card-2 d-flex align-items-center">
+                    <img src="./Assets/card-2.svg" alt="card-2">
+                    <div class="card-text text-light">Neffex Playlist</div>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="card-2 d-flex align-items-center">
+                    <img src="./Assets/card-3.svg" alt="card-3">
+                    <div class="card-text text-light">K/ DA</div>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="card-2 d-flex align-items-center">
+                    <img src="./Assets/card-4.svg" alt="card-4">
+                    <div class="card-text text-light">Dance / Electronic Mix</div>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="right-three d-flex justify-content-between align-items-center mt-4 ms-4">
+            <h2 class="text-light">Shows you might like</h2>
+            <div class="div-aa">
+                <a href="#" class="text-decoration-none text-light">SEE ALL</a>
+            </div>
+        </div>
+        <div class="right-four d-flex align-items-center flex-wrap mt-4 ms-4 gap-3">
+            <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/mota-bhai.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Weekly Motivatio...</h5>
+                  <p class="card-text text-info">Ben Ina Scott</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ke pari.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">MEDITATION SELF</h5>
+                  <p class="card-text text-info">Ibn Hussain Aleen</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/chasma.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Words beyond act...</h5>
+                  <p class="card-text text-info">Samuel Scott</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/mota-bhai.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Weekly Motivatio...</h5>
+                  <p class="card-text text-info">Ben Ina Scott</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/papa ka para.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Alexa Show</h5>
+                  <p class="card-text text-info">Adriana Tom</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/mota-bhai.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Weekly Motivatio...</h5>
+                  <p class="card-text text-info">Ben Ina Scott</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/mota-bhai.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Weekly Motivatio...</h5>
+                  <p class="card-text text-info">Ben Ina Scott</p>
+                </div>
+              </div>
+              <div class="card d-flex flex-column align-items-center justify-content-center pt-3">
+                <img src="./Assets/mota-bhai.svg" class="card-img-top" alt="mota-bhai">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Weekly Motivatio...</h5>
+                  <p class="card-text text-info">Ben Ina Scott</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="footer-1">
+    <div class="foot-1 d-flex align-items-center justify-content-between">
+       <div class="foot-001">
+        <div class="d-flex align-items-center foot-002">
+            <img src="./Assets/play-song-icon.svg" alt="play-song-icon" class="play-song-icon">
+            <div>
+                <div class="dream text-light">Dreaming On</div>
+                <div class="nef">NEFFEX</div>
+            </div>
+            <img src="./Assets/green-heart.svg" alt="green-heart" class="green-heart">
+        </div>
+        <div></div>
+        <div></div>
+       </div>
+       <div class="foot-0001 d-flex align-items-baseline">
+        <div class="d-flex align-items-center justify-content-between foot-mid">
+         <img src="./Assets/unkonwn.svg" alt="unknown" class="play-btn">
+         <img src="./Assets/reverse.svg" alt="reverse" class="play-btn">
+         <img src="./Assets/play-btn.svg" alt="play-btn" class="play-btn">
+         <img src="./Assets/forward.svg" alt="forward" class="play-btn">
+         <img src="./Assets/sign.svg" alt="sign" class="play-btn">
+        </div>
+        <!-- <div>
+            <img src="./Assets/load-line.svg" alt="load-line">
+            <img src="./Assets/play-line.svg" alt="play-line">
+        </div> -->
+       </div>
+       <div class="foot-last">
+            <img src="./Assets/microphone.svg" alt="microphone">
+            <img src="./Assets/carbon_query-queue.svg" alt="carbon_query-queue">
+            <img src="./Assets/fluent_speaker-2-24-regular.svg" alt="fluent_speaker-2-24-regular">
+            <img src="./Assets/loading-time.svg" alt="loading-time">
+            <img src="./Assets/tabler_arrows-diagonal.svg" alt="tabler_arrows-diagonal">
+       </div>
+    </div>
+    <div class="foot-2">
+       <p>Listening on ASUS-ROG-G531GT</p>
+    </div>
+</div>
 
 
 

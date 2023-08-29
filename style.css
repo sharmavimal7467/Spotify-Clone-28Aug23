@@ -2,5 +2,233 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: red;
+}
+.main{
+    flex: 1;
+    width: 100vw;
+    height: 89vh;
+}
+.left-main{
+    flex:0.2;
+    background-color: black;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.left-main>img{
+    width: 70%;
+    height: 80px;
+}
+.home-text{
+    width: 120px;
+height: 16px;
+font-family: Circular Std;
+font-size: 20px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+/* background-color: red; */
+}
+.left-sec-fir{
+    width: 29.645282745361328px;
+height: 29.645282745361328px;
+padding: 7.411320686340332px 7.411319732666016px;
+background-color: white;
+}
+.left-left>.left-sec-fir-2>img{
+    width: 37.056602478027344px;
+height: 37.056602478027344px;
+border-radius: 1px;
+
+}
+.left-sec-fir-1{
+    width: 37.056602478027344px;
+height: 37.056602478027344px;
+border-radius: 5px;
+background: #004638;
+}
+.cre-list{
+    width: 148.22640991210938px;
+height: 30.880502700805664px;
+font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.0525em;
+text-align: left;
+}
+.song-type{
+    width: 213.527042388916016px;
+height: 30.880502700805664px;
+font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.0525em;
+text-align: left;
+}
+.inst-app{
+    width: 108.69937133789062px;
+height: 30.880502700805664px;
+font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.0525em;
+text-align: left;
+}
+.right-main{
+    flex: 0.8;
+    background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.right-one{
+    height: 45px;
+    width: 100%;
+}
+.right-main>.right-one>.rect-5{
+    width: 147px;
+    height: 41px;
+    /* background-color: red; */
+}
+.right-two>h2{
+    width: 280px;
+height: 56px;
+font-family: DM Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: -0.03em;
+text-align: left;
+}
+.card-1{
+    width: 362px;
+height: 100px;
+border-radius: 4px;
+background: #303030;
+}
+.card-2{
+    gap: 50px;
+}
+.right-two>.card-1>.card-2>img{
+    width: 100px;
+height: 100px;
+/* background-color: red; */
+border-radius: 4px 0px 0px 4px
+}
+.right-two>.card-1>.card-2>.card-text{
+    width: 111px;
+height: 26px;
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.right-three{
+    /* width: 200px;
+    height: 100px; */
+}
+.right-three>h2{
+    width: 304.5960693359375px;
+height: 60.963138580322266px;
+font-family: DM Sans;
+font-size: 29px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: -0.04em;
+text-align: left;
+/* background-color: red; */
+}
+.right-three>.div-aa>a{
+    /* background-color: aqua; */
+    color: #B3B3B3;
+    width: 69px;
+height: 22px;
+font-family: DM Sans;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.04em;
+text-align: left;
+}
+.card{
+    width: 251.29176330566406px;
+height: 305.9043273925781px;
+/* background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+!important; */
+background-color:#000000 !important;
+border: 1px solid #000000 !important;
+/* padding: 10px; */
+}
+.card>img{
+    width: 207.7780303955078px;
+height: 207.92784118652344px;
+border-radius: 14px;
+}
+.footer-1{
+    width: 100vw;
+    height: 50vh;
+}
+.footer-1>.foot-1{
+    /* width: 1728px; */
+height: 45px;
+background-color: #181818;
+}
+.footer-1>.foot-2{
+    /* width: 1728px; */
+height: 15px;
+background-color: red;
+}
+.foot-002>.play-song-icon{
+    width: 62.96720886230469px;
+height: 45px;
+/* padding: 10px; */
+/* background-color: orangered; */
+}
+.footer-1>.foot-1>.foot-0001>.foot-mid{
+    width: 504px;
+    height: 30px;
+    /* background-color: orangered; */
+}
+.footer-1>.foot-1>.foot-0001>.foot-mid>.play-btn{
+    height: 25px;
+}
+.dream{
+    width: 109.74284362792969px;
+height: 19px;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: -0.05em;
+text-align: left;
+}
+.nef{
+    width: 109.74284362792969px;
+height: 19px;
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: -0.05em;
+text-align: left;
+color:#B3B3B3;
+}
+.foot-2{
+    width: 100vw;
+    text-align: center;
+    width: 265.5px;
+height: 24px;
+font-family: DM Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
 }
