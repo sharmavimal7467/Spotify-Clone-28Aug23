@@ -3,10 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    overflow-y: hidden;
+}
 .main{
     flex: 1;
     width: 100vw;
-    height: 89vh;
+    height: 87vh;
+}
+.footer-1{
+    width: 100vw;
+    height: 14vh;
 }
 .left-main{
     flex:0.2;
@@ -170,19 +177,18 @@ border: 1px solid #000000 !important;
 height: 207.92784118652344px;
 border-radius: 14px;
 }
-.footer-1{
-    width: 100vw;
-    height: 50vh;
-}
+
 .footer-1>.foot-1{
     /* width: 1728px; */
-height: 45px;
-background-color: #181818;
+height: 70px;
+background-color: #282828;
 }
 .footer-1>.foot-2{
-    /* width: 1728px; */
-height: 15px;
-background-color: red;
+    width:100vw;
+    text-align: right;
+    padding-right: 10px;
+height: 30px;
+background-color: #1ED760;
 }
 .foot-002>.play-song-icon{
     width: 62.96720886230469px;
@@ -191,12 +197,12 @@ height: 45px;
 /* background-color: orangered; */
 }
 .footer-1>.foot-1>.foot-0001>.foot-mid{
-    width: 504px;
-    height: 30px;
+    width: 304px;
+    /* height: 30px; */
     /* background-color: orangered; */
 }
 .footer-1>.foot-1>.foot-0001>.foot-mid>.play-btn{
-    height: 25px;
+    height: 50px;
 }
 .dream{
     width: 109.74284362792969px;
@@ -221,9 +227,9 @@ color:#B3B3B3;
 }
 .foot-2{
     width: 100vw;
-    text-align: center;
-    width: 265.5px;
-height: 24px;
+    /* text-align: center; */
+    /* width: 265.5px; */
+/* height: 10v; */
 font-family: DM Sans;
 font-size: 12px;
 font-weight: 700;
@@ -231,4 +237,6 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 color: #000000;
+margin-bottom: 40px;
 }
+
