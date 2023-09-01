@@ -9,6 +9,12 @@
     height: 90vh;
     flex:1;
 }
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #181818;
+    overflow-y: hidden;
+}
 .left-main{
     flex: 0.17;
     /* width: 230px; */
@@ -68,8 +74,242 @@ border-radius: 1px;
     flex:0.83;
     background-color: aqua;
 }
-.footer{
-    width: 100vw;
-    height: 10vh;
-    background-color: darksalmon;
+.right-one{
+height: 300px;
+background-image: linear-gradient(to right, rgb(124,149,143), rgb(66,80,76));
+/* width: 80vw; */
+/* background-color: red; */
+/* z-index: 1000; */
+}
+.right-one>img{
+    width: 230.96986389160156px;
+height: 233.0685577392578px;
+/* background-color: red; */
+/* padding: 10px; */
+}
+.playlists-2{
+    width: 57px;
+height: 16px;
+font-family: Circular Std;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.po-ri-no{
+    width: 607px;
+height: 114px;
+font-family: Circular Std;
+font-size: 90px;
+font-weight: 900;
+line-height: 114px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.lore{
+    width: 426.21087646484375px;
+height: 21px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: left;
+/* background-color: pink; */
+}
+.spotify{
+    width: 49px;
+height: 22px;
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+/* background-color: red; */
+}
+.infoo>img{
+    width: 4px;
+height: 4px;
+opacity: 0.699999988079071px;
+background-color: #605F9E;
+}
+.like{
+    width: 86px;
+height: 19px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.02em;
+text-align: left;
+/* background-color: chartreuse; */
+}
+.songs-hrs{
+    width: 136px;
+height: 19px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.02em;
+text-align: left;
+/* background-color: brown; */
+}
+
+
+.right-two{
+    background-image: linear-gradient(to bottom,rgb(40,48,47),rgb(0,0,0) );
+}
+.subb{
+    /* gap: 350px; */
+    /* margin-right: 200px !important; */
+
+}
+.subb{
+    border-bottom: 1px solid rgb(248, 6, 6);
+}
+.list-ppp{
+    
+}
+.list-ppp{
+    width: 14.082900047302255px;
+height: 12.539214134216323px;
+/* angle: -90 deg; */
+/* color: white; */
+/* background-color: greenyellow; */
+}
+.title{
+    width: 93.29999923706055px;
+height: 15.51388931274414px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.11em;
+text-align: left;
+background-color: red;
+}
+.album{
+    width: 42.29999923706055px;
+height: 15.51388931274414px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.11em;
+text-align: left;
+background-color: rgb(210, 196, 246);
+}
+.dat-add{
+    width: 158.30000305175781px;
+height: 15.51388931274414px;
+opacity: 0.699999988079071px;
+font-family: Circular Std;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.11em;
+text-align: left;
+background-color: chartreuse;
+}
+
+.play-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #1DB954;
+}
+.we-good{
+    width: 95.68279266357422px;
+height: 19px;
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+background-color: red;
+}
+.dua-lipa{
+    width: 69.861602783203125px;
+height: 18px;
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+background-color: green;
+}
+.fu-no{
+    width: 258.8291473388672px;
+height: 18px;
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+background-color: chocolate;
+}
+.chinasss{
+    width: 35.82118797302246px;
+height: 21px;
+opacity: 0.699999988079071px;
+font-family: Noto Sans CJK KR;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+background-color: darkorange;
+}
+.qqq{
+    width: 100px;
+    gap: 20px;
+}
+.list-ttt{
+    background-color: burlywood;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.hold-on{
+    width: 57px;
+height: 19px;
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+background-color: chartreuse;
+}
+.justin{
+    width: 71px;
+height: 15px;
+opacity: 0.6000000238418579px;
+font-family: Circular Std;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+background-color: coral;
+}
+.vert-001{
+    border-bottom: 5px solid #B3B3B3;
+    width: 474px;
+}
+.rerere{
+    border-bottom: 5px solid #C4C4C4;
+    width: 97px;
 }
